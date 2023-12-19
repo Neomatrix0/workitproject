@@ -6,7 +6,7 @@
 
 .hero{
 position:relative;
-    background-color: red;
+    background-color: var(--Dark-Purple, #24053E);
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +48,7 @@ position:relative;
     display: block;
     width: 100%;
     height: 2px;
-    background-color: green;
+    background-color: #48FDA1;
     transition: width 0.3s;
 
     
@@ -75,7 +75,7 @@ position:relative;
             display: block;
             width: 100%;
             height: 3px;
-            background-color: green;
+            background-color: #48FDA1;
             transition: width 0.3s;
             position: absolute;
             bottom: -1px;
@@ -85,8 +85,8 @@ position:relative;
 .hero-content button{
     padding: 0.8rem 1.2rem;
     border: none;
-    background-color: green;
-    color: white;
+    background-color: #48FDA1;
+    color: #24083E;
     cursor: pointer;
     font-size: 0.6rem;
     transition: background-color 0.3s;
@@ -103,13 +103,36 @@ position:relative;
 .hero-img-container img{
     width:26rem;
 }
+.pattern1{
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    width:10rem;
+
+}
+.pattern1 img{
+    width:100%;
+    height: 100%;
+}
+.pattern2 {
+    position: absolute;
+    top: 35%;
+    right: -3%;
+    width: 8rem;
+
+}
+
+.pattern2 img {
+    width: 100%;
+    height: 100%;
+}
 /*section hero ends here*/
 
 
 /*section info starts here*/
 .info{
 position: relative;
-    background-color: yellow;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,6 +152,7 @@ position: relative;
     gap:2rem;
 }
 .info-card{
+    flex:1;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -165,7 +189,7 @@ position: relative;
 }
 .contact-card{
     flex:2;
-    background-color: orangered;
+    background-color: #24083E;
     padding:2rem;
     position: relative;
     color:white;
@@ -180,8 +204,8 @@ position: relative;
 .contact-card button{
     padding: 0.8rem 1.2rem;
         border: none;
-        background-color: green;
-        color: white;
+        background-color: #48FDA1;
+        color: #24083E;
         cursor: pointer;
         font-size: 0.6rem;
         transition: background-color 0.3s;
